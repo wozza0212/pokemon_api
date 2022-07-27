@@ -12,7 +12,7 @@ for x in range(1,151):
     new_url = f'{url}{x}'
     pokemon = requests.get(new_url)
     pokemon = pokemon.json()
-    pokemon_info.append({'name': pokemon['name'], 'id':pokemon['id'], 'height':pokemon['height'],
+    pokemon_info.append({'name': pokemon['name'], 'id':pokemon['id'], 'height (decimeters)':pokemon['height'],
     'weight': pokemon['weight'], 'type':(pokemon['types'][0]['type']['name']), 'sprite url':pokemon['sprites']['other']['official-artwork']['front_default']})
 
 

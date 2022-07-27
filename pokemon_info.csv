@@ -1,4 +1,4 @@
-name,id,height,weight,type,sprite url
+name,id,height (decimeters),weight,type,sprite url
 bulbasaur,1,7,69,grass,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png
 ivysaur,2,10,130,grass,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png
 venusaur,3,20,1000,grass,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png
